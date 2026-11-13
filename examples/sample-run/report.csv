@@ -1,0 +1,6 @@
+file,format,width,height,size_kb,sharpness,brightness,bg_deviation,verdict,issues
+/tmp/qc-demo/bags.jpg,JPEG,832,1104,82.8,10.46,213.9,1.4,PASS,
+/tmp/qc-demo/serum-copy.jpg,JPEG,720,1280,73.6,6.82,135.1,149.4,FAIL,resolution: short side 720px < 800px; background uneven: corner deviation 149; near-duplicate of serum.jpg
+/tmp/qc-demo/serum.jpg,JPEG,720,1280,73.6,6.82,135.1,149.4,FAIL,resolution: short side 720px < 800px; background uneven: corner deviation 149; near-duplicate of serum-copy.jpg
+/tmp/qc-demo/sneaker.jpg,JPEG,720,1280,126.2,15.94,118.9,105.7,FAIL,resolution: short side 720px < 800px; background uneven: corner deviation 106
+/tmp/qc-demo/title.png,PNG,1920,1080,55.1,8.26,234.6,16.7,PASS,
